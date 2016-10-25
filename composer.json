@@ -1,0 +1,19 @@
+{
+  "name": "resources",
+  "description": "Project ORM",
+  "authors": [
+    {
+      "name": "Salim Pradhan",
+      "email": "salimamin2@gmail.com"
+
+    }
+  ],
+  "require": {
+    "j4mie/idiorm": "1.5.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "resourcesParis\\": "Models/"
+    }
+  }
+}
