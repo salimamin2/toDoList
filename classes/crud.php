@@ -20,7 +20,7 @@ if (isset($_POST['save'])) {
 /* code for data delete */
 if (isset($_GET['del'])) {
     $SQL = $MySQLiconn->query("DELETE FROM data WHERE id=" . $_GET['del']);
-    header("Location: index.php");
+    header("Location: app.php");
 }
 /* code for data delete */
 
@@ -33,7 +33,7 @@ if (isset($_GET['edit'])) {
 
 if (isset($_POST['update'])) {
     $SQL = $MySQLiconn->query("UPDATE data SET fn='" . $_POST['fn'] . "', ln='" . $_POST['ln'] . "' WHERE id=" . $_GET['edit']);
-    header("Location: index.php");
+    header("Location: app.php");
 }
 /* code for data update */
 
